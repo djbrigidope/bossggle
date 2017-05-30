@@ -29,5 +29,12 @@ background-color: black;
 }
 
 .rightGridContainer {
+width: 30%;
+height: auto;
+}
 
+.gridObj {
+  width: 125px;
+  height: 125px;
+  outline-color: black;
 }
