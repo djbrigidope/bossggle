@@ -1,40 +1,80 @@
-.leftContainer {
-  display: flex;
-  flex-direction: column;
-  width: 27%;
+.main {
+  max-width: 600px;
   height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   background-color: grey;
+  margin: 50px;
+  border: 12px dotted white;
 }
 
-.leftObject1 {
-width: 150px;
+.leftContainer {
+  list-style: none;
+  width: 100%;
+  display: column;
+  margin: 0px 0px 15px 15px;
+
+}
+
+.leftObject {
+width: 200px;
 height:200px;
 background-color: black;
-}
-
-.leftObject2 {
-width: 150px;
-height:200px;
-background-color: black;
-}
-
-
-.rightObject{
-
 }
 
 .rightMasterContainer {
+  justify-content: center;
+  width: 65%;
+  height: auto;
+  color: grey;
+  background-color: grey;
+  border: 2px dotted red;
+  margin: 5px;
+}
+
+h1 {
+  padding: 12px 0px 0px 15px;
+}
+
+h3{
+  color:white;
+  padding-left: 10px;
+}
+
+
+h2{
+  color:white;
+  padding-left: 10px;
+}
+
+.flex-grid {
   display: flex;
-  flex-direction: column;
+}
+.col {
+  flex: 1;
+  background-color: red;
+  justify-content: space-around;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  width: 45px;
+  height: 45px;
+  border: 1px dashed white;
+  margin: 7px;
 }
 
-.rightGridContainer {
-width: 30%;
-height: auto;
+#submit {
+  background-color: green;
+  padding: 10px;
 }
 
-.gridObj {
-  width: 125px;
-  height: 125px;
-  outline-color: black;
+#reset {
+  background-color: green;
+  padding: 10px;
+}
+
+#reset {
+  background-color: green;
+  padding: 10px;
 }
