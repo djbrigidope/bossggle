@@ -2,7 +2,7 @@
 copied from (https://github.com/GuildCrafts/web-development-js/blob/master/_goals/395-Bossggle_Refresher.md)
 
 ## Specifications
-
+9/17
 These are the basic specs for Bossggle, broken into 5 stages. If you complete these specs, try taking on some of the [Stretch specs](#stretch).
 
 #### Stage 1
