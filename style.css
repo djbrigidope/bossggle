@@ -62,7 +62,18 @@ h2{
   height: 45px;
   border: 1px dashed white;
   margin: 7px;
+  hover
 }
+
+.col:hover {
+  background-color: #380606 !important;
+}
+
+.clicked:active {
+  background-color: #380606;
+  color: white;
+}
+
 
 #submit {
   background-color: green;
@@ -74,7 +85,7 @@ h2{
   padding: 10px;
 }
 
-#reset {
+#clear {
   background-color: green;
   padding: 10px;
 }
