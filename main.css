@@ -85,7 +85,7 @@ h2{
 }
 
 .clicked{
-  background-color: #380606;
+  background-color: orange;
   border: 1px dashed white;
   color: white;
 }
@@ -104,4 +104,8 @@ h2{
 #clear {
   background-color: green;
   padding: 10px;
+}
+
+p {
+  padding-left: 10px;
 }
