@@ -65,7 +65,7 @@ h2{
   hover
 }
 
-#col {
+/*#col {
   flex: 1;
   background-color: red;
   justify-content: space-around;
@@ -77,17 +77,16 @@ h2{
   border: 1px dashed white;
   margin: 7px;
   hover
-}
-
-
+}*/
 
 
 .col:hover {
   background-color: #380606 !important;
 }
 
-.clicked {
-  background-color: grey;
+.clicked{
+  background-color: #380606;
+  border: 1px dashed white;
   color: white;
 }
 
